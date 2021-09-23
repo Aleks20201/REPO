@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<!-- This suite will not run test parallel  -->
+<suite name="regression" parallel="classes" thread-count="3">
+    <test name="Regression Suite">
+        <classes>
+
+            <class name="login.LogInLikeNewCustomer"/>
+
+        </classes>
+    </test>
+</suite>
